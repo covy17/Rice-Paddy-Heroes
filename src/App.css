@@ -7,9 +7,40 @@
 body{
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.4;
+  background-color: black;
 }
 
 a{
   color: #333;
   text-decoration: none;
+}
+
+.headerStyle{
+  display: flex;
+  background-color: white;
+  align-items: center;
+}
+
+#headerLogo{
+  width: 100px;
+  height: 100px;
+}
+
+.logo-div{
+  flex: 1;
+}
+
+.link-div{
+  flex: 1;
+  padding: 10px;
+}
+
+.linkStyle{
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.linkStyle:hover{
+  color: gray;
 }
