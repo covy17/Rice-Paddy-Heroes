@@ -11,6 +11,7 @@ class App extends Component {
         <div className="App">
           <div className="container">
             <Header />
+            <img src={require("./images/rph_home.jpg")} className="full-image"/>
           </div>
         </div>
       </Router>
